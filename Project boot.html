@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <title>Project Bootstrap</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .nav-title {
+        padding-left: 40px;
+        font-family: sans-serif;
+      }
+
+      .nav-links {
+        padding-right: 40px;
+        font-family: cursive;
+      }
+
+      .left {
+        margin-left: 40px;
+        padding-top: 90px;
+      }
+
+      .heading {
+        margin-left: 20px;
+      }
+
+      .btn {
+        margin-left: 20px;
+      }
+
+      .btn button {
+        background-color: orangered;
+        color: white;
+        height: 50px;
+        width: 150px;
+        border-radius: 10px;
+        border: none;
+      }
+
+      .rightside {
+        border-radius: 300px 0 0 300px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 20px;
+      }
+
+      .image {
+        border-radius: 50% 50% 0 50%;
+        height: 95%;
+      }
+
+      .image img {
+        border-radius: 50% 50% 0 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="nav-title">
+          <h2>Dezven</h2>
+        </div>
+        <div
+          class="nav-links d-flex align-items-center justify-content-center gap-4">
+          <a>Home</a>
+          <a>About US</a>
+          <a>Services</a>
+          <a>Experience</a>
+          <a>Portfolio</a>
+          <a>Testimonial</a>
+          <a>Contact Us</a>
+        </div>
+      </div>
+    </nav>
+    <div class="main d-flex w-100">
+      <div class="leftside w-75">
+        <div class="left">
+          <h6>Hi There, I'm</h6>
+          <h1>Dezven Indiana</h1>
+          <h5>Freelance Developer</h5>
+        </div>
+        <div class="heading p-4 .text-body-tertiary">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has <br />been the industry's standard dummy
+            text.
+          </p>
+        </div>
+        <div class="btn p-4">
+          <button>Contant Me</button>
+        </div>
+      </div>
+      <div class="rightside border border-5 border-danger w-50">
+        <div class="image border border-5 border-black w-75">
+          <img
+            src="g1.jpg"
+            class="img-fluid w-100 h-100 p-1 object-fit-cover"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
